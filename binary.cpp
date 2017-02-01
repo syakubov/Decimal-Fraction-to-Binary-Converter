@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main() {
-  double init = 0.125;
+  double init = 0.125; //put in whatever fractional decimal that is needed.
   std::string binval = ".";
   int count = 0;
   while (init != 1) {
@@ -23,7 +23,7 @@ int main() {
       std::cout << init << std::endl;
     }
   }
-  std::cout << "Should be " << count << " digits long\n";
+  std::cout << "Should be " << count << " digits long\n"; //just to make sure all is well. delete if needed
   std::cout << binval << std::endl;
   std::cout << binval.size()-1 << " long\n";
 }
