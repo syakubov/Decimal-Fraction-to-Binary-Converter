@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main() {
-  double init = 0.125; //put in whatever fractional decimal that is needed.
+  double init = 0.125; //put in whatever fractional decimal that is needed. note: ONLY the fractional portion
   std::string binval = ".";
   int count = 0;
   while (init != 1) {
